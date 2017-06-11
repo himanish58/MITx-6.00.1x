@@ -4,6 +4,7 @@ s = input('Enter the string..\n')
 longestStr = ''
 temp = ''
 tempOneLetter = ''
+
 for i in range(len(s)-1):
     if ord(s[i]) <= ord(s[i+1]):
         if temp == '':
